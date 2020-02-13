@@ -60,7 +60,7 @@ public class SplitNumberMaximum {
 	 * Method to  find the sum of individual digits of given two numbers
 	 */
 	public static int sumIndividuals(int n1, int n2) {
-		//converting an integer of array of digits
+		//converting an integer to array of digits
 		int[] n1ar =Integer.toString(n1).chars().map(c -> c-'0').toArray();
 		int[] n2ar =Integer.toString(n2).chars().map(c -> c-'0').toArray();
 		// inbuilt functions to add all the elements in an array.
